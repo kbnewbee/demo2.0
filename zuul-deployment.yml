@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: zuul
-          image: kaybee97/zuul:v4
+          image: kaybee97/zuul:v4.1
           ports:
             - containerPort: 8079
