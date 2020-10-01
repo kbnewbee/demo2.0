@@ -15,7 +15,7 @@ spec:
         env: dev
     spec:
       containers:
-        - name: server
-          image: kaybee97/product:v4
+        - name: product
+          image: kaybee97/product:v4.1
           ports:
             - containerPort: 8080
