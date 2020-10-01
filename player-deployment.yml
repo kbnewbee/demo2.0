@@ -15,7 +15,7 @@ spec:
         env: dev
     spec:
       containers:
-        - name: server
-          image: kaybee97/player:v4
+        - name: player
+          image: kaybee97/player:v4.1
           ports:
             - containerPort: 8090
